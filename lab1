@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<?php
+$array = array(
+"foo" => "bar",
+"bar"=> "foo",
+);
+  
+  // as of php 5.4
+  $array = [
+"foo" => "bar",
+"bar"=> "foo",
+];
+?> 
+
+</body>
+</html>
