@@ -2,14 +2,11 @@
 <html>
 <body>
 
-<h1 style="background-color:Tomato;">Tomato</h1>
-<h1 style="background-color:Orange;">Orange</h1>
-<h1 style="background-color:DodgerBlue;">DodgerBlue</h1>
-<h1 style="background-color:MediumSeaGreen;">MediumSeaGreen</h1>
-<h1 style="background-color:Gray;">Gray</h1>
-<h1 style="background-color:SlateBlue;">SlateBlue</h1>
-<h1 style="background-color:Violet;">Violet</h1>
-<h1 style="background-color:LightGray;">LightGray</h1>
+<?php
+$colors = array("red","blue","green","orange");
+for ($x = 0; $x < $color; $x++) {
+ echo "The color is: $x <br>";
+ }
 
 </body>
 </html>
